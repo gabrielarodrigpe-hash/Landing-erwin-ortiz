@@ -1,0 +1,117 @@
+index.html
+
+export default function LandingPage() {
+  return (
+    <div className="font-sans text-gray-800">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-gray-900 to-gray-700 text-white text-center p-16">
+        <h1 className="text-4xl font-bold mb-4">Aprende a dominar el trading y transforma tu vida</h1>
+        <p className="text-lg mb-6 max-w-2xl mx-auto">
+          Curso gratuito para entender los fundamentos del trading + ebook exclusivo de Erwin Ortiz.
+        </p>
+        <div className="flex justify-center gap-4">
+          <button className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold shadow-md">
+            Accede Gratis al Curso
+          </button>
+          <button className="border border-white px-6 py-3 rounded-xl font-semibold">
+            Descargar Ebook
+          </button>
+        </div>
+      </section>
+
+      {/* Presentación */}
+      <section className="text-center p-12">
+        <img src="https://via.placeholder.com/150" alt="Erwin Ortiz" className="mx-auto rounded-full w-32 h-32 mb-6" />
+        <h2 className="text-2xl font-bold mb-2">Soy Erwin Ortiz</h2>
+        <p className="max-w-xl mx-auto text-gray-600">
+          Mentor en trading, desarrollo personal y acondicionamiento físico. Mi misión es ayudarte a construir una vida equilibrada con libertad financiera, mental y física.
+        </p>
+      </section>
+
+      {/* Curso gratuito */}
+      <section className="bg-gray-100 p-12 text-center">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">Curso Gratuito de Trading</h2>
+        <p className="text-gray-600 mb-6">Aprende los fundamentos del mercado y las estrategias básicas paso a paso.</p>
+        <img src="https://via.placeholder.com/500x250" alt="Curso" className="mx-auto rounded-xl shadow-md mb-6" />
+        <button className="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold">
+          Acceder al Curso Gratis
+        </button>
+      </section>
+
+      {/* Ebook gratuito */}
+      <section className="p-12 text-center">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">Descarga mi Ebook GRATIS</h2>
+        <p className="text-gray-600 mb-6">Claves del trading y el desarrollo personal en un solo recurso práctico.</p>
+        <img src="https://via.placeholder.com/300x400" alt="Ebook" className="mx-auto rounded-xl shadow mb-6" />
+        <button className="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold">
+          Descargar Gratis
+        </button>
+      </section>
+
+      {/* Suscripción Premium */}
+      <section className="bg-gradient-to-r from-gray-800 to-gray-900 text-white p-12 text-center">
+        <h2 className="text-3xl font-bold mb-4">Formación Avanzada en Trading</h2>
+        <p className="mb-6">Suscripción mensual con beneficios exclusivos:</p>
+        <ul className="text-left max-w-lg mx-auto space-y-2 mb-6">
+          <li>🚀 Acceso a formación avanzada en trading</li>
+          <li>🧑‍💻 Sesiones 1 a 1 con Erwin Ortiz</li>
+          <li>📊 Estrategias aplicadas y acompañamiento</li>
+          <li>💬 Comunidad privada en Telegram</li>
+        </ul>
+        <button className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold shadow-md">
+          Suscríbete Ahora
+        </button>
+      </section>
+
+      {/* Canal Telegram */}
+      <section className="p-12 text-center">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">Únete a mi comunidad en Telegram</h2>
+        <p className="text-gray-600 mb-6">Recibe tips diarios sobre trading, desarrollo personal y acondicionamiento físico.</p>
+        <button className="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold">
+          Unirme al Canal Gratis
+        </button>
+      </section>
+
+      {/* Testimonios */}
+      <section className="bg-gray-100 p-12 text-center">
+        <h2 className="text-3xl font-bold mb-8 text-gray-800">Lo que dicen mis alumnos</h2>
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="bg-white p-6 rounded-xl shadow-md">
+            ⭐⭐⭐⭐⭐
+            <p className="text-gray-700 mt-2">“Gracias al curso de Erwin, entendí el trading desde cero y ahora me siento seguro para avanzar.”</p>
+            <p className="text-sm font-semibold mt-2">– Juan P.</p>
+          </div>
+          <div className="bg-white p-6 rounded-xl shadow-md">
+            ⭐⭐⭐⭐⭐
+            <p className="text-gray-700 mt-2">“El acompañamiento 1 a 1 y la comunidad han sido un cambio de vida.”</p>
+            <p className="text-sm font-semibold mt-2">– María G.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action final */}
+      <section className="p-12 text-center">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">Empieza tu camino hacia la libertad financiera, mental y física</h2>
+        <div className="flex justify-center gap-4">
+          <button className="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold">
+            Accede Gratis al Curso
+          </button>
+          <button className="border border-green-600 px-6 py-3 rounded-xl font-semibold text-green-600">
+            Descargar Ebook
+          </button>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-400 text-center p-6 text-sm">
+        © 2025 Erwin Ortiz - Todos los derechos reservados | contacto@erwinortiz.com
+        <div className="mt-2 flex justify-center gap-4">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Telegram</a>
+          <a href="#">YouTube</a>
+        </div>
+      </footer>
+    </div>
+  );
+}
